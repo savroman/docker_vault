@@ -1,7 +1,6 @@
-backend "consul" {
-  	address = "consul:8500"
-  	advertise_addr = "http://consul:8300"
-  	scheme = "http"
+storage "consul" {
+  address = "127.0.0.1:8500"
+  path    = "vault/"
 }
 listener "tcp" {
   	address = "0.0.0.0:8200"
