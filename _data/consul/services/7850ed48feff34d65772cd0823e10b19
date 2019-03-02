@@ -1,1 +1,0 @@
-{"Token":"","Service":{"ID":"vault:172.22.0.2:8200","Service":"vault","Tags":["standby"],"Address":"172.22.0.2","Meta":null,"Port":8200,"Weights":{"Passing":1,"Warning":1},"EnableTagOverride":false,"ProxyDestination":"","Proxy":{},"Connect":{},"CreateIndex":0,"ModifyIndex":0}}
